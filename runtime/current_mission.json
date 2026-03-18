@@ -1,0 +1,66 @@
+{
+  "name": "mision_1",
+  "type": "moveby_waypoints",
+  "frame": "BODY",
+  "auto": {
+    "takeoff": true,
+    "land": true
+  },
+  "failsafe": {
+    "on_failure": "land"
+  },
+  "params": {
+    "speed_mps": 1.0,
+    "gimbal_pitch_deg": -90.0
+  },
+  "waypoints": [
+    {
+      "dx": 0.0,
+      "dy": 0.0,
+      "dz": 0.0,
+      "dyaw_deg": 0.0,
+      "wait_s": 0.0,
+      "action": {
+        "type": "none",
+        "sensor": "thermal",
+        "mode": "-"
+      }
+    },
+    {
+      "dx": 0.0,
+      "dy": 0.0,
+      "dz": 0.0,
+      "dyaw_deg": 0.0,
+      "wait_s": 0.0,
+      "action": {
+        "type": "none",
+        "sensor": "thermal",
+        "mode": "-"
+      }
+    },
+    {
+      "dx": 0.0,
+      "dy": 0.0,
+      "dz": 0.0,
+      "dyaw_deg": 0.0,
+      "wait_s": 0.0,
+      "action": {
+        "type": "none",
+        "sensor": "thermal",
+        "mode": "-"
+      }
+    },
+    {
+      "dx": 0.0,
+      "dy": 0.0,
+      "dz": 0.0,
+      "dyaw_deg": 0.0,
+      "wait_s": 0.0,
+      "action": {
+        "type": "none",
+        "sensor": "thermal",
+        "mode": "-"
+      }
+    }
+  ]
+}
