@@ -1,0 +1,9 @@
+matplotlib==3.8.4
+numpy==1.26.4
+opencv-python==4.10.0.84
+openpyxl==3.1.5
+parrot-olympe==7.5
+Pillow==10.4.0
+requests==2.32.3
+tifffile==2024.8.30
+ultralytics==8.3.0
